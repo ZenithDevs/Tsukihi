@@ -213,14 +213,15 @@ Persons
 .persons {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+	grid-row-gap: 16px;
+	grid-column-gap: 32px;
 }
 a.person {
 	width: 125px;
-	margin: 8px 32px;
 }
 a.person > .icon {
 	width: 125px;
-	height: 125px;
+	padding-top: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
