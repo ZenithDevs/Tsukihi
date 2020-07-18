@@ -1,0 +1,33 @@
+- var activePage = "home"
+
+html(lang="en")
+	include includes/head.pug
+	body
+		//- Header
+		header
+			include includes/nav.pug
+			section
+				h1 Zenith
+				p We're a team of developers devoted to making powerful, yet simplistic, experiences.
+				+button("Twitter", "//twitter.com/ZenithDevs", "211")
+				+button("Discord", "//discord.gg/nD4Azx3", "227")
+				+button("GitHub", "//github.com/ZenithDevs", "243.1")
+		//- Features Section
+		section
+			a.more(href="projects.html") View All...
+			h2 Projects
+			.cards
+				for project in projects
+					if project.featured
+						+card(project.name, project.desc, project.banner, project.link)
+		section
+			h2 Members
+			.persons
+				+person("Magnetar", "magnetardev")
+				+person("S0n1c", "S0n1c_Dev")
+				+person("Shuga", "HeyItsShuga")
+				+person("Skitty", "Skittyblock")
+				+person("Nash0", "ItsNash0")
+				+person("Micro", "HeyItsMicro")
+				+person("Even", "even_dev")
+		include includes/footer.pug

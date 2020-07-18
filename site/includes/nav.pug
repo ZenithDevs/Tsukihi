@@ -1,0 +1,8 @@
+include mixin
+
+nav
+	.brand
+		+logo(44)
+	.items
+		a(href="/", class=activePage == "home" ? 'active' : null) Home
+		a(href="projects.html", class=activePage == "projects" ? 'active' : null) Projects

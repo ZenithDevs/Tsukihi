@@ -1,0 +1,18 @@
+- var activePage = "projects"
+
+html(lang="en")
+	include includes/head.pug
+	body
+		//- Header
+		header
+			include includes/nav.pug
+			section
+				h1 Projects
+				p What Zenith has created.
+		//- Features Section
+		section
+			h2 Projects
+			.cards
+				for project in projects
+					+card(project.name, project.desc, project.banner, project.link)
+		include includes/footer.pug

@@ -1,0 +1,19 @@
+{
+  "name": "tsukihi",
+  "version": "1.0.0",
+  "description": "Zenith internal SSG.",
+  "main": "build.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ssg"
+  ],
+  "author": "Magnetar, Shuga",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^9.0.1",
+    "path": "^0.12.7",
+    "pug": "^3.0.0"
+  }
+}

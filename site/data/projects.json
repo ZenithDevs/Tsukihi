@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Eclipse",
+    "banner": "eclipse.png",
+    "desc": "A Web-based multi-platform emulator.",
+    "link": "https://eclipseemu.me",
+    "featured": true
+  },
+  {
+    "name": "Parcility",
+    "banner": "prcl.png",
+    "desc": "Beautifully browse your repos.",
+    "link": "//parcility.co",
+    "featured": true
+  },
+  {
+    "name": "OpenSkin",
+    "banner": "oskin.png",
+    "desc": "The flexible, open, and libre skin format.",
+    "link": "//openskin.zenithdevs.com",
+    "featured": true
+  },
+  {
+    "name": "OpenRepo",
+    "banner": "orepo.png",
+    "desc": "Create repo systems in web apps with ease.",
+    "link": "//openrepo.zenithdevs.com",
+    "featured": false
+  },
+  {
+    "name": "Kennel",
+    "banner": "kennel.png",
+    "desc": "Render Sileo-compatible native depictions for the web.",
+    "link": "//github.com/ZenithDevs/Kennel",
+    "featured": false
+  },
+  {
+    "name": "ControllerKit",
+    "banner": "ckit.png",
+    "desc": "Responsive controller framework for the web.",
+    "link": "//github.com/ZenithDevs/ControllerKit",
+    "featured": false
+  },
+  {
+    "name": "prclib",
+    "banner": "prclib.png",
+    "desc": "A TypeScript library to parse iOS APT repos.",
+    "link": "//github.com/ZenithDevs/Kennel",
+    "featured": false
+  }
+]
