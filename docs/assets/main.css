@@ -220,8 +220,6 @@ a.person {
 }
 
 a.person > .icon {
-	/* width: 125px;
-	height: 125px; */
 	padding-top: 100%;
 	background-position: center;
 	background-size: cover;
