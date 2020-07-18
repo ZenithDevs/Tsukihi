@@ -212,31 +212,37 @@ Persons
 */
 .persons {
 	display: grid;
-	grid-template-columns: repeat(auto-fill, minmax(175px, 1fr));
+	grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+	grid-gap: 4rem;
 }
 a.person {
-	width: 125px;
-	margin: 8px 32px;
+	display: block;
 }
+
 a.person > .icon {
-	width: 125px;
-	height: 125px;
+	/* width: 125px;
+	height: 125px; */
+	padding-top: 100%;
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: var(--section);
 	border-radius: 50%;
 }
+
 a.person > h3, a.person > p {
 	text-align: center;
 	color: var(--text);
 }
+
 a.person > h3 {
 	font-size: 24px;
-	margin: 5px 0 0;
+	margin: 0;
+	margin-top: 5px;
 }
+
 a.person > p {
-	margin: 3px 0 0;
+	margin-top: 3px;
 	opacity: 0.5;
 }
 
@@ -253,12 +259,14 @@ footer {
 	padding: 2rem 15px;
 	color: var(--text);
 }
+
 footer > div {
 	display: flex;
 	flex-wrap: wrap;
 	margin-left: 20%;
 	margin-right: 20%;
 }
+
 footer > div > .left {
 	position: relative;
 	min-height: 1px;
@@ -278,22 +286,27 @@ footer > div > .right {
 	flex-grow: 1;
 	max-width: 100%;
 }
+
 footer > div > .right > ul {
 	margin-top: 0;
 	padding-left: 0;
 	list-style: none;
 }
+
 footer > div > .right > ul > li > a {
 	color: var(--caption);
 }
+
 footer > div > a {
 	color: var(--text);
 }
+
 footer > div a > .title {
 	font-size: 18px;
 	line-height: 22px;
 	font-weight: bold;
 }
+
 footer > div a > .subtitle {
 	color: var(--caption);
 }
