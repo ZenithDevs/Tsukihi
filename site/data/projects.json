@@ -45,7 +45,7 @@
     "name": "prclib",
     "banner": "prclib.png",
     "desc": "A TypeScript library to parse iOS APT repos.",
-    "link": "//github.com/ZenithDevs/Kennel",
+    "link": "//github.com/ZenithDevs/prclib",
     "featured": false
   }
 ]
