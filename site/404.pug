@@ -1,0 +1,12 @@
+- var activePage = "404"
+
+html(lang="en")
+	include includes/head.pug
+	body(style="background: var(--section)")
+		//- Header
+		header
+			include includes/nav.pug
+			section
+				h1 404
+				p Page not found!
+		include includes/footer.pug

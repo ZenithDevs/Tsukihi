@@ -13,9 +13,13 @@
 	--background: white;
 }
 
+html {
+	position: relative;
+}
+
 body {
 	margin: 0;
-	padding: 0;
+	padding: 0 0 175px;
 	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
 		'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans',
 		'Helvetica Neue', sans-serif;
@@ -24,9 +28,13 @@ body {
 	background: var(--background);
 }
 
-/* 
+.center {
+	text-align: center;
+}
 
-Navbar 
+/*
+
+Navbar
 
 */
 
@@ -36,7 +44,6 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	padding: 16px 32px;
-	margin-bottom: 86px;
 }
 
 nav .brand {
@@ -72,12 +79,12 @@ nav .items a:hover {
 	color: var(--caption-alt);
 }
 
-/* 
+/*
 
-Colors 
+Colors
 
 */
-a, section .header h6 {
+a, section header h6 {
 	color: var(--app-color);
 	text-decoration: none;
 }
@@ -85,7 +92,7 @@ a:hover {
 	opacity: 0.75;
 }
 
-/* 
+/*
 
 Header
 
@@ -94,6 +101,9 @@ header {
 	background-color: var(--section);
 	border-bottom: solid 1px var(--section-border);
 	text-align: center;
+}
+header > section {
+	margin-top: 86px;
 	padding-bottom: 92px;
 }
 section {
@@ -101,18 +111,18 @@ section {
 	margin: auto;
 	padding: 0 16px;
 }
-header section img {
+header > section img {
 	width: 92px;
 	margin: auto;
 	border-radius: 27px;
 }
-header section h1 {
+header > section h1 {
 	font-size: 3rem;
 	margin: 0;
 	color: var(--caption-alt);
 	font-weight: 800;
 }
-header section p {
+header > section p {
 	margin: 0;
 	opacity: 0.5;
 	font-size: 1.25rem;
@@ -138,7 +148,7 @@ a.more {
 	margin: 5px 0;
 }
 
-/* 
+/*
 
 Section
 
@@ -244,9 +254,9 @@ a.person > p {
 	opacity: 0.5;
 }
 
-/* 
+/*
 
-Footer 
+Footer
 
 */
 footer {
@@ -256,6 +266,9 @@ footer {
 	max-width: 100%;
 	padding: 2rem 15px;
 	color: var(--text);
+	position: absolute;
+	width: calc(100% - 32px);
+	bottom: 0;
 }
 
 footer > div {
@@ -309,7 +322,7 @@ footer > div a > .subtitle {
 	color: var(--caption);
 }
 
-/* 
+/*
 
 Page Heading
 
