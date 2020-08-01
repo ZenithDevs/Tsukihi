@@ -91,6 +91,9 @@ a, section header h6 {
 a:hover {
 	opacity: 0.75;
 }
+a {
+	transition: opacity 0.15s ease-in-out;
+}
 
 /*
 
@@ -134,13 +137,9 @@ a.button {
 	padding: 0.5rem 2rem;
 	border-radius: 0.5rem;
 	color: var(--button-text);
-	transition: background-color 0.15s cubic-bezier(0.4, 0, 0.2, 1);
 	font-size: 1rem;
 	font-weight: 500;
 	margin: 16px 8px 8px;
-}
-a.button:hover {
-	background-color: var(--app-color-alt);
 }
 a.more {
 	float: right;
