@@ -11,7 +11,7 @@ mixin button(innerHTML, href, hue)
     a.button(href=href target="_blank" rel="noopener noreferrer" style=`background-color: hsl(${hue},80.4%,62%);box-shadow: 0 5px 15px 0 hsl(${hue},80.4%,62%, 54%)`)=innerHTML
 
 mixin card(title, desc, icon, href)
-    a.card(target="_blank", href=href)
+    a.card(target="_blank" rel="noopener noreferrer" href=href)
         .banner(style=`background-image: url(assets/banner/${icon})`)
         h3=title
         p=desc

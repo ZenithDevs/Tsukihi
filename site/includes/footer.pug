@@ -2,11 +2,11 @@ include mixin
 
 mixin social(innerHTML, href)
 	li
-		a.unstyled.gray(href=href, target="_blank")=innerHTML
+		a.unstyled.gray(href=href rel="noopener noreferrer" target="_blank")=innerHTML
 
 footer
 	div
-		a.logo.left(href='//zenithdevs.com', target='_blank')
+		a.logo.left(href='//zenithdevs.com' rel="noopener noreferrer" target='_blank')
 			+logo(22)
 			br
 			.title Zenith
