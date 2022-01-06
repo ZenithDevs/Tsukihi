@@ -7,6 +7,13 @@
     "featured": true
   },
   {
+    "name": "Glacier",
+    "banner": "glacier.png",
+    "desc": "A non-jailbreak theming platform.",
+    "link": "https://glcr.app",
+    "featured": true
+  },
+  {
     "name": "Parcility",
     "banner": "prcl.png",
     "desc": "Beautifully browse your repos.",
@@ -18,7 +25,7 @@
     "banner": "oskin.png",
     "desc": "The flexible, open, and libre skin format.",
     "link": "//openskin.zenithdevs.com",
-    "featured": true
+    "featured": false
   },
   {
     "name": "OpenRepo",
