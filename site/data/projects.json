@@ -18,7 +18,7 @@
     "banner": "oskin.png",
     "desc": "The flexible, open, and libre skin format.",
     "link": "//openskin.zenithdevs.com",
-    "featured": false
+    "featured": true
   },
   {
     "name": "OpenRepo",
