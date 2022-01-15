@@ -7,13 +7,6 @@
     "featured": true
   },
   {
-    "name": "Glacier",
-    "banner": "glacier.png",
-    "desc": "A non-jailbreak theming platform.",
-    "link": "https://glcr.app",
-    "featured": true
-  },
-  {
     "name": "Parcility",
     "banner": "prcl.png",
     "desc": "Beautifully browse your repos.",
